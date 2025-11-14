@@ -245,14 +245,18 @@ html {
     background-color: var(--color-dark);
 }
 
-.todays_recipes_content_block_image_one, .todays_recipes_content_block_image_three {
-display: flex;
-justify-content: center;
-align-items: center;
+.todays_recipes_content_block_image_one,
+.todays_recipes_content_block_image_three {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-.todays_recipes_content_block_image_one, .todays_recipes_content_block_image, .todays_recipes_content_block_image_three, .todays_recipes_content_block_image_four {
-height: 204px;
+.todays_recipes_content_block_image_one,
+.todays_recipes_content_block_image,
+.todays_recipes_content_block_image_three,
+.todays_recipes_content_block_image_four {
+    height: 204px;
 }
 
 .todays_recipes_content_block_text {
@@ -781,6 +785,7 @@ h6 {
 .category h4 span {
     text-transform: uppercase;
 }
+
 /* Search page CSS end */
 
 /* recipe-details start */
@@ -1007,6 +1012,7 @@ h6 {
     color: var(--color_light);
     font-size: 24px;
 }
+
 /* About page end */
 
 
@@ -1021,33 +1027,34 @@ h6 {
 
 
 @media (max-width:600px) {
-:root {
-    --width-12col:600px;
-    --padding-default:10px;
-    --grid-gap:8px;
-}
+    :root {
+        --width-12col: 600px;
+        --padding-default: 10px;
+        --grid-gap: 8px;
+    }
 
-body, html {
-    overflow-x: hidden;
-}
+    body,
+    html {
+        overflow-x: hidden;
+    }
 
     .navigation {
         height: auto;
         padding: 10px;
         position: fixed;
-    
+
     }
 
     .menu-container ul {
         gap: 10px;
         text-align: center;
-      
+
     }
 
     .menu-container ul li {
         border: none;
     }
-   
+
     .hero-front-page {
         margin-top: 100px;
         background-image: none;
@@ -1066,13 +1073,14 @@ body, html {
         grid-row: 1;
         text-align: center;
         width: 60%;
-        
+
     }
 
     .hero-text h1 {
         font-size: 24px;
     }
-      .search-box {
+
+    .search-box {
         grid-column: 1;
         grid-row: 2;
         width: 60%;
@@ -1088,9 +1096,10 @@ body, html {
         grid-template-columns: 1fr;
     }
 
-     .todays_recipes_headline {
+    .todays_recipes_headline {
         font-size: 28px;
     }
+
     .todays_recipes_content_block {
         width: 60%;
     }
@@ -1099,7 +1108,7 @@ body, html {
         height: 160px;
     }
 
-    
+
     .categories {
         flex-wrap: wrap;
         padding: 10px;
@@ -1107,7 +1116,8 @@ body, html {
         width: 60%;
 
     }
-.category-veg,
+
+    .category-veg,
     .category-seafood,
     .category-chicken,
     .category-meats,
@@ -1117,6 +1127,7 @@ body, html {
         width: 30%;
         font-size: 12px;
     }
+
     .image-section {
         clip-path: none;
         height: auto;
@@ -1127,7 +1138,8 @@ body, html {
     .image-section-content {
         justify-content: center;
     }
- .picture-textbox {
+
+    .picture-textbox {
         width: 60%;
         height: auto;
     }
@@ -1142,27 +1154,31 @@ body, html {
         height: auto;
     }
 
-    .box-two, .box-three, .box-six {
+    .box-two,
+    .box-three,
+    .box-six {
         background-image: url(none);
         height: 0px;
 
     }
 
-    
-    .box-one, .box-four, .box-five {
+
+    .box-one,
+    .box-four,
+    .box-five {
         width: 100%;
         height: auto;
         padding: 20px;
         background-image: url(none);
     }
 
-    
+
     /* footer */
     .footer-box-first {
         text-align: center;
         gap: 20px;
         padding: 20px;
-    
+
     }
 
     .footer-box-third {
@@ -1193,7 +1209,7 @@ body, html {
         text-align: center;
     }
 
-    
+
     .categories_details {
         flex-direction: column;
         gap: 20px;
@@ -1206,8 +1222,8 @@ body, html {
         justify-content: center;
     }
 
-    
-    
+
+
     .list-container {
         width: 100%;
         padding: 20px;
@@ -1218,7 +1234,7 @@ body, html {
         gap: 20px;
     }
 
-  
+
     .ingredients-buttons {
         flex-direction: column;
         margin-top: 40px;
@@ -1232,7 +1248,7 @@ body, html {
         justify-content: center;
     }
 
-    
+
     .list-col-two {
         background-image: none;
         grid-template-columns: 1fr;
@@ -1248,8 +1264,24 @@ body, html {
     .instructions-nostyle,
     .instructions {
         margin-bottom: 100px;
-    
+        width: 80%;
+    }
+  /* footer */
+    .footer-box-first {
+        text-align: center;
+        gap: 20px;
+        padding: 20px;
+
+    }
+
+    .footer-box-third {
+        border-left: none;
+        text-align: center;
+        width: 100%;
+        font-size: 12px;
+        padding-top: 10px;
     }
 
 }
+
 /* Mobile version recipe details end */
