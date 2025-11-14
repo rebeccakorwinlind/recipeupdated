@@ -1343,7 +1343,49 @@ h6 {
 /* Mobile version search page end */
 
 /* Mobile version about page start */
+@media (max-width: 600px) {
 
+    
+    .todays_recipes_about {
+        padding: 50px 0 10px 10px;
+    }
+
+    .about-container {
+        width: 80%;
+        padding: 20px;
+    }
+
+    .categories_details_social {
+        flex-direction: row;
+        gap: 40px;
+    }
+
+    .categories_details_social .socialmedia_icons {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .categories_details_social p {
+        font-size: 20px;
+    }
+
+    /* footer */
+    .footer-box-first {
+        text-align: center;
+        gap: 20px;
+        padding: 20px;
+
+    }
+
+    .footer-box-third {
+        border-left: none;
+        text-align: center;
+        width: 100%;
+        font-size: 12px;
+        padding-top: 10px;
+    }
+
+}
 /* Mobile version about page end */
 
 
