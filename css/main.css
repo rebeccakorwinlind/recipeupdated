@@ -1285,3 +1285,65 @@ h6 {
 }
 
 /* Mobile version recipe details end */
+
+/* Mobile version search page start */
+@media (max-width: 600px) {
+    .hero-searchpage {
+        padding-top: 100px;
+    }
+
+    .search-box-searchpage {
+        grid-column: 1;
+        grid-row: 1;
+        margin: 20px 0 0 0;
+        width: 80%;
+    }
+
+    .filter-catagory-checkbox {
+        grid-column: 1;
+        grid-row: 2;
+        margin: 20px 0 0 0;
+        width: 80%;
+        height: auto;
+        padding: 20px;
+    }
+
+    .serp-result-item {
+        width: 80%;
+        padding-bottom: 20px;
+        padding-left: 10px;
+    }
+
+    .category h3 {
+        font-size: 18px;
+    }
+
+    .category h4 {
+        font-size: 14px;
+
+        }
+
+    /* footer */
+    .footer-box-first {
+        text-align: center;
+        gap: 20px;
+        padding: 20px;
+
+    }
+
+    .footer-box-third {
+        border-left: none;
+        text-align: center;
+        width: 100%;
+        font-size: 12px;
+        padding-top: 10px;
+    }
+
+}
+/* Mobile version search page end */
+
+/* Mobile version about page start */
+
+/* Mobile version about page end */
+
+
