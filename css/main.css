@@ -1009,7 +1009,16 @@ h6 {
 }
 /* About page end */
 
-/* Mobile version start */
+
+
+
+
+
+
+
+
+/* Mobile version recipe site start */
+
 
 @media (max-width:600px) {
 :root {
@@ -1021,7 +1030,7 @@ h6 {
 body, html {
     overflow-x: hidden;
 }
-/* NAVIGATION */
+
     .navigation {
         height: auto;
         padding: 10px;
@@ -1030,7 +1039,6 @@ body, html {
     }
 
     .menu-container ul {
-        /* flex-direction: column; */
         gap: 10px;
         text-align: center;
       
@@ -1039,7 +1047,7 @@ body, html {
     .menu-container ul li {
         border: none;
     }
-     /* HERO SECTION */
+   
     .hero-front-page {
         margin-top: 100px;
         background-image: none;
@@ -1070,7 +1078,7 @@ body, html {
         width: 60%;
     }
 
-    /* TODAY'S RECIPES */
+
     .todays_recipes {
         width: 100%;
         padding: 20px;
@@ -1091,7 +1099,7 @@ body, html {
         height: 160px;
     }
 
-    /* CATEGORY BAR */
+    
     .categories {
         flex-wrap: wrap;
         padding: 10px;
@@ -1109,7 +1117,6 @@ body, html {
         width: 30%;
         font-size: 12px;
     }
-  /* IMAGE SECTION */
     .image-section {
         clip-path: none;
         height: auto;
@@ -1125,7 +1132,7 @@ body, html {
         height: auto;
     }
 
-    /* FRAME CONTENT BOXES */
+
     .frame-content {
         flex-direction: column;
     }
@@ -1169,3 +1176,80 @@ body, html {
 }
 
 
+/* Mobile version recipe site end */
+
+/* Mobile version recipe details start */
+@media (max-width: 600px) {
+
+    .hero-front-page-details {
+        padding-top: 60px;
+    }
+
+    .hero-container-details {
+        grid-template-columns: 1fr;
+        width: 100%;
+        padding: 20px;
+        background-image: none;
+        text-align: center;
+    }
+
+    
+    .categories_details {
+        flex-direction: column;
+        gap: 20px;
+        padding: 20px 0;
+        margin: 10px 0 0 0;
+        text-align: center;
+    }
+
+    .categories_details div {
+        justify-content: center;
+    }
+
+    
+    
+    .list-container {
+        width: 100%;
+        padding: 20px;
+    }
+
+    .list-col {
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+
+  
+    .ingredients-buttons {
+        flex-direction: column;
+        margin-top: 40px;
+        gap: 10px;
+        align-items: center;
+    }
+
+    .print-button,
+    .favorite-button {
+        width: 100%;
+        justify-content: center;
+    }
+
+    
+    .list-col-two {
+        background-image: none;
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+
+    .list-col-three {
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+
+
+    .instructions-nostyle,
+    .instructions {
+        margin-bottom: 100px;
+    
+    }
+
+}
+/* Mobile version recipe details end */
