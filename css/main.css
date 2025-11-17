@@ -117,7 +117,7 @@ html {
 }
 
 .hero-front-page {
-    background-image: url("img/frontpage.png");
+    background-image: url("../img/frontpage.png");
     min-height: 600px;
     background-repeat: no-repeat;
     background-size: cover;
@@ -435,7 +435,7 @@ span[data-category="beef/pork"] {
 
 
 .image-section {
-    background-image: url("../css/img/skrå.png");
+    background-image: url("../img/skrå.png");
     height: 800px;
     background-size: cover;
     padding-top: 350px;
@@ -503,21 +503,21 @@ p {
 }
 
 .box-two {
-    background-image: url('../css/img/checkone.png');
+    background-image: url('../img/checkone.png');
     width: 600px;
     height: 380px;
     background-size: cover;
 }
 
 .box-three {
-    background-image: url('../css/img/checktwo.png');
+    background-image: url('../img/checktwo.png');
     width: 600px;
     height: 380px;
     background-size: cover;
 }
 
 .box-six {
-    background-image: url('../css/img/checkthree.png');
+    background-image: url('../img/checkthree.png');
     width: 600px;
     height: 380px;
     background-size: cover;
@@ -796,7 +796,7 @@ h6 {
 }
 
 .hero-container-details {
-    background-image: url("img/soup.png");
+    background-image: url("../img/soup.png");
     min-height: auto;
     background-repeat: no-repeat;
     background-position: top right;
@@ -901,7 +901,7 @@ h6 {
 }
 
 .list-col-two {
-    background-image: url("img/soup.png");
+    background-image: url("../img/soup.png");
     background-position: right top;
     background-repeat: repeat-y;
     background-size: auto 50%;
